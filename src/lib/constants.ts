@@ -28,11 +28,11 @@ export const COLORS = {
 } as const;
 
 export const CAMERA_WAYPOINTS: CameraWaypoint[] = [
-  { position: [0, 2, 12], target: [0, 1, 0], label: 'Entrance' },
-  { position: [-3, 2.5, 3], target: [-3, 1.8, 0], label: 'Glass Sculpture' },
-  { position: [3, 2, -2], target: [3, 1.5, -5], label: 'Shader Canvas' },
-  { position: [-2, 2.5, -7], target: [-2, 1.2, -10], label: 'Project Pedestal' },
-  { position: [0, 2.5, -13], target: [0, 2, -16], label: 'Particle Void' },
+  { position: [0, 2.0, 7.5], target: [0, 1.5, 0], label: 'Entrance' },
+  { position: [-0.6, 1.9, 3.2], target: [-2.8, 1.8, 0], label: 'Glass Sculpture' },
+  { position: [0.8, 1.7, -2.2], target: [2.9, 1.5, -5.0], label: 'Shader Canvas' },
+  { position: [0.2, 1.6, -7.2], target: [-1.9, 1.3, -10.0], label: 'Project Pedestal' },
+  { position: [0, 2.0, -11.5], target: [0, 2.0, -16.0], label: 'Particle Void' },
 ];
 
 export const EXHIBITS: ExhibitData[] = [

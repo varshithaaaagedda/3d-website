@@ -22,6 +22,9 @@ export const GlassSculpture: React.FC<GlassSculptureProps> = React.memo(({ onSel
 
   return (
     <group position={[-3, 0, 0]}>
+      {/* Exhibit Local Key Light */}
+      <pointLight position={[0, 2.2, 1.5]} intensity={3.0} color="#f5e6c8" distance={8} />
+
       {/* Floating Glass Sculpture */}
       <Float speed={1.5} rotationIntensity={0.8} floatIntensity={0.6}>
         <mesh
@@ -50,18 +53,18 @@ export const GlassSculpture: React.FC<GlassSculptureProps> = React.memo(({ onSel
           <MeshTransmissionMaterial
             backside
             backsideThickness={0.3}
-            thickness={0.5}
-            chromaticAberration={0.06}
+            thickness={0.6}
+            chromaticAberration={0.08}
             anisotropicBlur={0.1}
-            distortion={0.2}
+            distortion={0.25}
             distortionScale={0.3}
             temporalDistortion={0.1}
-            transmission={1}
-            roughness={hovered ? 0.02 : 0.05}
-            ior={1.5}
+            transmission={0.98}
+            roughness={hovered ? 0.02 : 0.06}
+            ior={1.52}
             color="#c9a96e"
             attenuationColor="#f5e6c8"
-            attenuationDistance={0.4}
+            attenuationDistance={0.5}
           />
         </mesh>
       </Float>
