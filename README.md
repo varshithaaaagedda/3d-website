@@ -25,6 +25,15 @@
 
 ---
 
+## 🕹️ Controls & Navigation
+
+- **Scroll / Wheel**: Seamless camera transition between gallery exhibits.
+- **Mouse Movement**: Interactive dynamic camera parallax and particle repulsion.
+- **Exhibit Navigation Rail**: Jump directly to any exhibit using the glassmorphism side navigation.
+- **Audio Toggle**: Enable ambient generative drone audio and UI sound synthesis.
+
+---
+
 ## 🛠 Tech Stack
 
 - **Framework**: React 18 + TypeScript + Vite
@@ -34,11 +43,26 @@
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn / pnpm
+
+### Installation & Local Development
 
 ```bash
+# Clone the repository and install dependencies
 npm install
+
+# Run dev server with hot reload
 npm run dev
+
+# Build for production output
+npm run build
+
+# Preview production build locally
+npm run preview
 ```
 
 ---
@@ -46,3 +70,10 @@ npm run dev
 ## 🏆 Hackathon Entry
 
 Built for the **3D Websites Hackathon**.
+
+---
+
+## 👥 Contributors
+
+- **Varshithaaa Gedda** ([@varshithaaaagedda](https://github.com/varshithaaaagedda)) — *Contributor*
+- **Aditya Tummuri** ([@AdityaTummuri](https://github.com/AdityaTummuri)) — *Lead Developer & Creative Technologist*
